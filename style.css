@@ -44,6 +44,20 @@ header a {
 	display: inline-block;
 }
 
+#about::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+#about img {
+	float: right;
+	border-radius: 0.5rem;
+	max-width: 200px;
+	display: none;
+	margin: 0 1rem;
+}
+
 footer {
 	margin-top: auto;
 	margin-bottom: 1rem;
@@ -73,5 +87,9 @@ footer {
 
 	header h1 {
 		width: unset;
+	}
+
+	#about img {
+		display: inline-block;
 	}
 }
