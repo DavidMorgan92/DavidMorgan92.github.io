@@ -12,6 +12,17 @@ body {
 	padding: 0 1rem;
 }
 
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid grey;
+}
+
+header a {
+	display: block;
+}
+
 footer {
 	margin-top: auto;
 	margin-bottom: 1rem;
@@ -32,4 +43,10 @@ footer {
 	width: 400px;
 	height: 200px;
 	object-fit: cover;
+}
+
+@media only screen and (min-width: 480px) {
+	header a {
+		display: inline;
+	}
 }
