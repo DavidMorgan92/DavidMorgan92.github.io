@@ -16,3 +16,20 @@ footer {
 	margin-top: auto;
 	margin-bottom: 1rem;
 }
+
+.card {
+	border: 1px solid grey;
+	border-radius: 1rem;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+	color: black;
+	text-decoration-style: none;
+	background-color: lightgrey;
+}
+
+.card img {
+	width: 400px;
+	height: 200px;
+	object-fit: cover;
+}
